@@ -1,4 +1,5 @@
-
-export function helloWord() {
-    return "Hola Mundo";
+function helloWord() {
+  return "Hola Mundo";
 }
+
+module.exports = helloWord;
